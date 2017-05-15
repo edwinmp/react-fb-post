@@ -1,5 +1,9 @@
 {
-  "extends": [ "airbnb", "react-app" ],
+  "extends": [ "airbnb" ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "rules": {
     "linebreak-style": "off",
     "react/prop-types": "off"
